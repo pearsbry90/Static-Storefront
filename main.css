@@ -1,0 +1,234 @@
+/* Common Elements */
+body {
+    font-size: 67.5%;
+    font-family: 'Copperplate, Papyrus, fantasy';
+    background: url(./Assets/MHA.png) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+h1 {
+    color: gray;
+    font-size: 2.0em;
+    font-weight: bold;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+
+h2 {
+    color: green;
+    font-size: 2.0em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+
+p {
+    color: red;
+    font-size: 2.0em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+
+ol {
+    font-size: 1.2em;
+    margin: 0 0 0 1.0em;
+    padding: 0 0 0 1.0em;
+}
+
+ol li {
+    margin: 0;
+    padding: 0 0 0 0.2em;
+}
+
+a, a:visited {
+    color: lightsteelblue;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+hr {
+    padding: 0;
+    margin: 1.5em 1.5em 0.75em 0.5em;
+}
+
+.contentWrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 3.0em;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/* Header */
+header{
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2.0em;
+    background: white url(./Assets/Outerspace.png) center 0px;
+}
+
+header h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: silver;
+    font-size: 7.5em;
+    letter-spacing: -0.025em;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Nav Bars */
+nav {
+    color: lightslategray;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: turquoise;
+    padding: 0.3em 0.6em;
+}
+
+nav li a:hover {
+    color: gold;
+}
+
+nav#utilityMenu {
+    float: left;
+    margin: -1.5em 0 0 0;
+    padding: .10em;
+    background-color: darkblue;
+    height: 1.3em;
+}
+
+nav#utilityMenu li {
+    padding: 0 0.2em 0 0.2em;
+    vertical-align: middle;
+}
+
+nav#utilityMenu li a, nav#utilityMenu li a:visited { padding: 0;}
+nav#utilityMenu li a:hover {background-color: transparent;}
+nav#utilityMenu {
+    vertical-align: top-right;
+    margin: 0 0 0 1.0em;
+}
+
+/* Sidebar */
+section#sidebar {
+    width: 238px;
+    float: right;
+    position: relative;
+    display: block;
+    background-color: darkblue;
+    margin: 1.5em 0 3.0em 1.5em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    border-right: white solid 5px;
+    border-bottom: white solid 5px;
+}
+/* Main Section */
+section #main {
+    background-color: lightslategrey;
+    margin: 0 0 2.0em;
+    padding: 1.5em 0 2.0em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px yellow;
+}
+
+section div.panel {
+    float: left;
+    position: relative;
+    width: 250px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: lightsteelblue;
+    border: white solid 1px;
+    border-radius: 0.6em;
+}
+
+section div.panel img.quirk {
+    width: 100%
+}
+
+/* Footer */
+footer {
+    background-color: blue;
+    height: 25px;
+    font-size: 1.2em;
+    color: royalblue;
+    text-align: center;
+    padding: 1.5em 2.0em
+}
+
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0,
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+
+footer ul li::before {
+    content: "";
+    padding-right: 0.7em;
+}
+
+footer a, footer a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+div.clear {
+    clear: both;
+    font-size: 1%;
+}
+
+button {
+    color: ghostwhite;
+    background-color: black;
+    display: inline-block;
+    margin: 0 0.75em 0 0;
+    padding: 0.2em 0.5em;
+    border: 1px solid yellow;
+    text-transform: uppercase;
+}
+
+button:hover {
+    color: yellow;
+    border: 1px solid white;
+}
