@@ -72,7 +72,7 @@ hr {
 }
 
 /* Header */
-header{
+header {
     padding: 2.5em 0 0.5em;
     margin: 0 0 2.0em;
     background: white url(./Assets/Outerspace.png) center 0px;
@@ -122,7 +122,6 @@ nav#utilityMenu {
     float: left;
     margin: -1.5em 0 0 0;
     padding: .10em;
-    background-color: darkblue;
     height: 1.3em;
 }
 
