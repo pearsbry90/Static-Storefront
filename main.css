@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    color: gray;
+    color: black;
     font-size: 2.0em;
     font-weight: bold;
     margin: 0.5em 0 0.5em 0;
@@ -27,7 +27,7 @@ h2 {
 }
 
 p {
-    color: red;
+    color: yellow;
     font-size: 2.0em;
     margin: 0.5em 0 0.5em 0;
     padding: 0;
@@ -143,7 +143,7 @@ section#sidebar {
     float: right;
     position: relative;
     display: block;
-    background-color: darkblue;
+    background-color: red;
     margin: 1.5em 0 3.0em 1.5em;
     padding: 1.7em 0.5em 2.0em 1.7em;
     border-right: white solid 5px;
